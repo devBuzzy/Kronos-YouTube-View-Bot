@@ -1,4 +1,4 @@
-Kronos-YouTube-View-Bot
+Kronos YouTube View Bot V1.0
 =======================
 
-Kronos YouTube View Bot
+A free YouTube Bot coded entirely in Python 2.7.
