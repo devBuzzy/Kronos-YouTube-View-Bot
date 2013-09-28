@@ -26,7 +26,7 @@ class MainFrame(wx.Frame): # Main Frame
     title = "Kronos View Bot V1.0"
     
     def __init__(self):
-      wx.Frame.__init__(self, wx.GetApp().TopWindow, title=self.title)
+      wx.Frame.__init__(self, wx.GetApp().TopWindow, title=self.title, style= wx.SYSTEM_MENU | wx.CAPTION | wx.CLOSE_BOX)
       panel=wx.Panel(self)
       textbox1 = wx.TextCtrl(panel, pos=(10,10),size=(100,-1))
       textbox1.AppendText("Video Url")
